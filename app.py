@@ -10,7 +10,7 @@ def read_root():
 
 @app.get("/jenkins")
 def read_root():
-    return {"Hello": "Venkatesh Team"}
+    return {"Hello": "Gustaf Team"}
 
 handler = mangum.Mangum(app)
 
